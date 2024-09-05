@@ -1,4 +1,4 @@
-package albumsapi.Utils;
+package AlbumAPI.Utils;
 
 public class validations {
     //Create a regex function to validate IPV6 address

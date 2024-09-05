@@ -1,4 +1,4 @@
-package albumsapi.Models;
+package AlbumAPI.Models;
 import java.util.Date;
 
 public class Payment {

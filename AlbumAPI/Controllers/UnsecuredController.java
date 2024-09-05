@@ -1,4 +1,4 @@
-package albumsapi.Controllers;
+package AlbumAPI.Controllers;
 
 public class UnsecuredController {
     

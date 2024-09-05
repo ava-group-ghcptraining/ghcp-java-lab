@@ -1,4 +1,4 @@
-package albumsapi.Utils;
+package AlbumAPI.Utils;
 
 import java.io.*;
 import java.nio.file.*;

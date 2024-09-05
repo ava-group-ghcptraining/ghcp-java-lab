@@ -1,5 +1,4 @@
-package albumsapi.Controllers;
-import albumsapi.Models.Payment;
+package AlbumAPI.Controllers;
 import java.sql.Connection;
 import java.sql.Statement;
 import java.sql.ResultSet;
@@ -9,7 +8,8 @@ import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import albumsapi.Models.Payment;
+
+import AlbumAPI.Models.Payment;
 
 //create a controller http get api to get all the payments using connection and statement classes and using as reference the class Payment.java  and add all dependencies
 @RestController

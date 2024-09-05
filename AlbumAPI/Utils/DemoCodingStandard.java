@@ -1,4 +1,4 @@
-package albumsapi.Utils;
+package AlbumAPI.Utils;
 
 public class DemoCodingStandard {
     //Create a function following coding standard file #file: 'albumsapi/CodingStandard.json' to check if a string is palindrome or not
