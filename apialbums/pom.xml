@@ -14,7 +14,7 @@
  
   <configuration>
       <sources>
-        <source>apialbums\target\classes</source>
+        <source>apialbums\src\main\java\api\albums</source>
       </sources>
   </configuration>
   
