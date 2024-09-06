@@ -1,43 +1,43 @@
+public package AlbumAPI.Utils;
 
-package AlbumAPI.Utils;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
-public class validationsTests {
+class validationsTests {
 
     @Test
     public void testValidateIPv6Address_ValidAddress() {
         String ipAddress = "2001:0db8:85a3:0000:0000:8a2e:0370:7334";
-        assertTrue(validations.validateIPv6Address(ipAddress));
+        assertTrue(Validations.validateIPv6Address(ipAddress));
     }
 
     @Test
     public void testValidateIPv6Address_InvalidAddress() {
         String ipAddress = "2001:0db8:85a3::8a2e:0370:7334";
-        assertFalse(validations.validateIPv6Address(ipAddress));
+        assertFalse(Validations.validateIPv6Address(ipAddress));
     }
 
     @Test
     public void testValidatePhoneNumber_ValidNumber() {
         String phoneNumber = "1234567890";
-        assertTrue(validations.validatePhoneNumber(phoneNumber));
+        assertTrue(Validations.validatePhoneNumber(phoneNumber));
     }
 
     @Test
     public void testValidatePhoneNumber_InvalidNumber() {
         String phoneNumber = "12345";
-        assertFalse(validations.validatePhoneNumber(phoneNumber));
+        assertFalse(Validations.validatePhoneNumber(phoneNumber));
     }
 
     @Test
     public void testValidateEmailAddress_ValidAddress() {
         String emailAddress = "test@example.com";
-        assertTrue(validations.validateEmailAddress(emailAddress));
+        assertTrue(Validations.validateEmailAddress(emailAddress));
     }
 
     @Test
     public void testValidateEmailAddress_InvalidAddress() {
         String emailAddress = "test@example";
-        assertFalse(validations.validateEmailAddress(emailAddress));
+        assertFalse(Validations.validateEmailAddress(emailAddress));
     }
 }

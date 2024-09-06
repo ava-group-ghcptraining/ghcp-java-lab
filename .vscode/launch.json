@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FileAccess",
+            "request": "launch",
+            "mainClass": "api.albums.Utils.FileAccess",
+            "projectName": "apialbums"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "DemoDebug.App",
+            "projectName": "ghcp-java-lab_b84f03d4"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "MultiThreading.App",
+            "projectName": "ghcp-java-lab_b84f03d4"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient",
+            "request": "launch",
+            "mainClass": "TCPSocket.TCPClient",
+            "projectName": "ghcp-java-lab_b84f03d4"
+        },
+        {
+            "type": "java",
+            "name": "TCPServer",
+            "request": "launch",
+            "mainClass": "TCPSocket.TCPServer",
+            "projectName": "ghcp-java-lab_b84f03d4"
+        },
+        {
+            "type": "java",
+            "name": "FileAccess(1)",
+            "request": "launch",
+            "mainClass": "apialbums.src.main.java.api.albums.Utils.FileAccess",
+            "projectName": "ghcp-java-lab_b84f03d4"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "basetemplate.src.main.java.com.avanade.Main",
+            "projectName": "ghcp-java-lab_b84f03d4"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "com.avanade.Main",
+            "projectName": "project2rename"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 package AlbumAPI.Utils;
 
 public class DemoCodingStandard {
-    //Create a function following coding standard file #file: 'albumsapi/CodingStandard.json' to check if a string is palindrome or not
+    //Create a function following coding standard file #file: 'CodingStandard.json' to check if a string is palindrome or not
     
     public static boolean isPalindrome(String str) {
         // Remove all non-alphanumeric characters and convert to lowercase
