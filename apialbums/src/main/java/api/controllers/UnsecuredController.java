@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/unsecured")
 public class UnsecuredController {
+//Identify vulnerabilities and suggest fixes
 
     @GetMapping("/welcome")
     public String welcome() {
