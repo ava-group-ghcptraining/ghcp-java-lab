@@ -1,4 +1,4 @@
-package api.Utils;
+package api.utils;
 
 //Optimize the given code snippet
 
