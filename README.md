@@ -1,1 +1,1 @@
-# ghcp-java-lab
+# ghc-java-lab
